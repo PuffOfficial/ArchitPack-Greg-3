@@ -1,0 +1,11 @@
+{
+    "name": "Quests",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:pack",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As you may already noticed, this pack doesn't have any questing system. $(br2)We wanted to keep progression as flexible as possible, players are forced to think by themselves."
+        }
+    ]
+}

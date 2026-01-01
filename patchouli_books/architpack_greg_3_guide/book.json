@@ -1,0 +1,9 @@
+{
+    "name": "ArchitPack Greg 3 Guide",
+    "landing_text": "Welcome to ArchitPack 3 Greg Guide! $(br2)This book is meant to help you with understanding this pack, because as you already know, there's no quests.",
+    "version": 7,
+    "creative_tab": "minecraft:tools_and_utilities",
+    "use_resource_pack": false,
+    "book_texture": "patchouli:textures/gui/book_blue.png",
+    "model": "architpack:guide_book"
+}

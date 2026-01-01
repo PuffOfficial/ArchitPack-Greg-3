@@ -1,0 +1,19 @@
+{
+    "name": "Tinker's Construct",
+    "icon": "tconstruct:seared_bricks",
+    "category": "patchouli:nerfs_tweaks",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:foundry_controller",
+            "title": "Foundry (Nerf)",
+            "text": "Foundry from Tinker's Construct is disabled."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "tconstruct:smeltery_controller",
+            "title": "Smeltery (Nerf)",
+            "text": "All smeltery-related recipes are now harder, to fit GTCEuM style. $(br2)Large smeltery is also locked behind steam age"
+        }
+    ]
+}

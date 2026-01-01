@@ -1,0 +1,19 @@
+{
+    "name": "Prospectors",
+    "icon": "gtceu:prospector.hv",
+    "category": "patchouli:generation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "GTCEuM adds prospectors, as tool to find ores more easily. $(br2)They're unlocked in LV, and have 3 tiers: LV, HV, and LuV, each one having bigger range than previous one."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "architpack:textures/patchouli/prospector_ui.png"
+            ],
+            "text": "Here's how LuV prospector UI looks like.",
+            "border": true
+        }
+    ]
+}

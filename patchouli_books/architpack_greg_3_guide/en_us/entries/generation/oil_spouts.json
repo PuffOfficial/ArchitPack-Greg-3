@@ -1,0 +1,19 @@
+{
+    "name": "Oil Spouts",
+    "icon": "gtceu:oil_bucket",
+    "category": "patchouli:generation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Across the world, you can find oil spouts. Which are small, natural sources of oil."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Oil Spout",
+            "images": [
+                "architpack:textures/patchouli/oil_spout.png"
+            ],
+            "border": true
+        }
+    ]
+}

@@ -1,3 +1,3 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes(archit => {
     
-})
+});

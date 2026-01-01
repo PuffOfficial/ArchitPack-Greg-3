@@ -466,7 +466,7 @@ client:
 tools:
   # Random chance for electric tools to take actual damage
   # Default: 10%
-  rngDamageElectricTools: 10
+  rngDamageElectricTools: 0
 
   # Amount of blocks that can be spray painted at once
   # Default: 16

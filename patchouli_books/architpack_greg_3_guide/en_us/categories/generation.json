@@ -1,0 +1,5 @@
+{
+    "name": "World Generation",
+    "description": "This chapter will explain how world generation works. $(br2)Unlike in GTCE and original GregTech, veins now generate actually randomly.",
+    "icon": "gtceu:raw_aluminium"
+}
