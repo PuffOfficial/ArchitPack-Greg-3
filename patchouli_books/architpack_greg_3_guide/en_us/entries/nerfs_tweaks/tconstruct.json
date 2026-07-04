@@ -13,7 +13,7 @@
             "type": "patchouli:spotlight",
             "item": "tconstruct:smeltery_controller",
             "title": "Smeltery (Nerf)",
-            "text": "All smeltery-related recipes are now harder, to fit GTCEuM style. $(br2)Large smeltery is also locked behind steam age"
+            "text": "All smeltery-related recipes are now harder, to fit GTCEuM style. $(br2)Large smeltery is also gated behind steam age"
         }
     ]
 }

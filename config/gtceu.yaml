@@ -14,16 +14,16 @@ recipes:
 
   # Whether to make crafting recipes for Bricks, Firebricks, Nether Bricks, and Coke Bricks harder.
   # Default: false
-  harderBrickRecipes: false
+  harderBrickRecipes: true
 
   # Whether to nerf Wood crafting to 2 Planks from 1 Log, and 2 Sticks from 2 Planks.
   # Default: false
-  nerfWoodCrafting: false
+  nerfWoodCrafting: true
 
   # Whether to make Wood related recipes harder.
   # Excludes sticks and planks.
   # Default: false
-  hardWoodRecipes: false
+  hardWoodRecipes: true
 
   # Recipes for Buckets, Cauldrons, Hoppers, and Iron Bars require Iron Plates, Rods, and more.
   # Default: true
@@ -31,7 +31,7 @@ recipes:
 
   # Whether to make Redstone related recipes harder.
   # Default: false
-  hardRedstoneRecipes: false
+  hardRedstoneRecipes: true
 
   # Whether to make Vanilla Tools and Armor recipes harder.
   # Excludes Flint and Steel, and Buckets.
@@ -40,7 +40,7 @@ recipes:
 
   # Whether to make miscellaneous recipes harder.
   # Default: false
-  hardMiscRecipes: false
+  hardMiscRecipes: true
 
   # Whether to make Glass related recipes harder. Default: true
   hardGlassRecipes: true
@@ -320,27 +320,27 @@ machines:
   smallBoilers:
     # The amount of steam a Steam Solid Boiler produces per second at max temperature.
     # Default: 120
-    solidBoilerBaseOutput: 120
+    solidBoilerBaseOutput: 240
 
     # The amount of steam a High Pressure Steam Solid Boiler produces per second at max temperature.
     # Default: 300
-    hpSolidBoilerBaseOutput: 300
+    hpSolidBoilerBaseOutput: 600
 
     # The amount of steam a Steam Liquid Boiler produces per second at max temperature.
     # Default: 240
-    liquidBoilerBaseOutput: 240
+    liquidBoilerBaseOutput: 480
 
     # The amount of steam a High Pressure Steam Liquid Boiler produces per second at max temperature.
     # Default: 600
-    hpLiquidBoilerBaseOutput: 600
+    hpLiquidBoilerBaseOutput: 1200
 
     # The amount of steam a Steam Solar Boiler produces per second at max temperature.
     # Default: 120
-    solarBoilerBaseOutput: 120
+    solarBoilerBaseOutput: 180
 
     # The amount of steam a High Pressure Steam Solar Boiler produces per second at max temperature.
     # Default: 360
-    hpSolarBoilerBaseOutput: 360
+    hpSolarBoilerBaseOutput: 540
 
   # Large Steam Boiler Options
   largeBoilers:
@@ -381,6 +381,9 @@ machines:
     tungstensteelBoilerHeatSpeed: 2
 
 client:
+  # Whether or not to display all temperatures in Celsius instead of Kelvin
+  temperaturesInCelsius: false
+
   # Whether or not to enable Emissive Textures for GregTech Machines.
   # Default: true
   machinesEmissiveTextures: true
@@ -447,11 +450,15 @@ client:
     # Default: true
     renderGrowingPlants: true
 
+    # Whether or not to color material/ore block highlights in the material color
+    # Default: true
+    coloredMaterialBlockOutline: true
+
     # Whether or not to color tiered machine highlights in the tier color
     # Default: true
     coloredTieredMachineOutline: true
 
-    # Whether or not to color wire/cable highlights based on voltage tier
+    # Whether or not to color wire/cable highlights based on voltage tier or material color
     # Default: true
     coloredWireOutline: true
 
@@ -538,6 +545,13 @@ gameplay:
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
   environmentalHazardDecayRate: 0.001
+
+  # List of domains that are allowed in the image module
+  allowedImageDomains:
+    - imgur.com
+    - discord.com
+    - github.com
+    - raw.githubusercontent.com
 
 # Config options for Mod Compatibility
 compat:
@@ -669,4 +683,9 @@ dev:
   # Dump all registered GT models/blockstates/etc?
   # Default: false
   dumpAssets: false
+
+  # Executes ./gradlew :processResources when F3+T is pressed
+  # Only works in a development environment
+  # Default: false
+  autoRebuildResources: false
 
