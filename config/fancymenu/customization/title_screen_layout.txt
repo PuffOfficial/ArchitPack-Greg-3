@@ -3,13 +3,330 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1767623498445
+  last_edited_time = 1783192351757
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:df7f5249-c269-43fc-bd95-812563fe352c-1767623474699] = [groups:][instances:]
+  [loading_requirement_container_meta:9441b3f5-d442-4246-bde9-e1b333ad00ba-1783190487684] = [groups:][instances:]
+}
+
+menu_background {
+  instance_identifier = ddbf7aef-2f99-45fd-b08c-728c81e3b95e-1783190487684
+  background_type = color_fancymenu
+  show_background = false
+  color = #FFC800FF
+}
+
+menu_background {
+  instance_identifier = a12206c7-4845-431d-a549-f610ce9a61b1-1783190487684
+  background_type = panorama
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = 6d92ff82-b508-409d-8eb8-b3a7c00ba7b3-1783190487684
+  background_type = image
+  show_background = false
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = a22ab5b6-7ef0-46bc-8e83-c5947bbf9de7-1783190487684
+  background_type = slideshow
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = 69f181ff-3da7-4ef1-ae93-b2e91abe4fe1-1783190487684
+  background_type = video
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  play_in_editor = true
+}
+
+menu_background {
+  instance_identifier = f7b29714-b36c-4228-ae5b-1e84e5fcb8da-1783190487684
+  background_type = video_mcef
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+}
+
+menu_background {
+  instance_identifier = c53ed6c6-5343-42c1-b623-fa82fd5d48a7-1783190487684
+  background_type = browser
+  show_background = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+menu_background {
+  instance_identifier = f3195045-53be-4707-9694-68a7d89f519a-1783190487684
+  background_type = glsl
+  show_background = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+menu_background {
+  instance_identifier = bff250f2-2561-4b81-9779-86d637016e77-1783190487684
+  background_type = drippy_color_background
+  show_background = false
+  color = #FD5757FF
+}
+
+decoration_overlay {
+  overlay_type = browser
+  instance_identifier = 5347833e-2f98-4cc0-9758-2d013b738e9b-1783190487684
+  show_decoration_overlay = false
+  url = https://docs.fancymenu.net
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+decoration_overlay {
+  overlay_type = glsl
+  instance_identifier = 359eaa20-4e91-40c2-a370-ebcaf04de83f-1783190487684
+  show_decoration_overlay = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}
+
+decoration_overlay {
+  overlay_type = buddy
+  instance_identifier = fbb2c370-4d29-44a6-9bff-f5789874bc99-1783190487684
+  show_decoration_overlay = false
+  buddy_hunger_decay_per_tick = 0.005
+  buddy_happiness_decay_per_tick = 0.003
+  buddy_fun_decay_per_tick = 0.002
+  buddy_energy_decay_per_tick = 0.002
+  buddy_energy_sleep_regen_per_tick = 0.03
+  buddy_play_energy_drain_per_tick = 0.03
+  buddy_play_fun_gain_per_tick = 0.05
+  buddy_play_happiness_gain_per_tick = 0.01
+  buddy_play_hunger_drain_per_tick = 0.01
+  buddy_chase_energy_drain_per_tick = 0.024
+  buddy_chase_hunger_drain_per_tick = 0.005
+  buddy_hop_energy_drain_per_tick = 0.005
+  buddy_hop_hunger_drain_per_tick = 0.002
+  buddy_excited_energy_drain_per_tick = 0.01
+  buddy_excited_happiness_gain_per_tick = 0.01
+  buddy_excited_hunger_drain_per_tick = 0.003
+  buddy_running_energy_drain_per_tick = 0.01
+  buddy_running_hunger_drain_per_tick = 0.005
+  buddy_food_hunger_gain = 20.0
+  buddy_food_happiness_gain = 5.0
+  buddy_pet_happiness_gain = 15.0
+  buddy_wakeup_happiness_penalty = 2.5
+  buddy_max_poops_cap = 10
+  buddy_can_die = true
+}
+
+decoration_overlay {
+  overlay_type = string_lights
+  instance_identifier = a0813b7c-aef1-4870-b243-5eb3f5fadd77-1783190487685
+  show_decoration_overlay = false
+  string_lights_scale = 1.0
+  string_lights_wind_strength = 1.0
+  string_lights_flicker_speed = 1.0
+  string_lights_left_center_to_top_center = true
+  string_lights_right_center_to_top_center = true
+  string_lights_bottom_left_to_top_center = false
+  string_lights_bottom_right_to_top_center = false
+  string_lights_top_left_to_top_right = true
+  string_lights_bottom_left_to_bottom_right = false
+  string_lights_loose_left_top = false
+  string_lights_loose_right_top = false
+  string_lights_left_center_to_top_center_christmas_mode = false
+  string_lights_right_center_to_top_center_christmas_mode = false
+  string_lights_bottom_left_to_top_center_christmas_mode = false
+  string_lights_bottom_right_to_top_center_christmas_mode = false
+  string_lights_top_left_to_top_right_christmas_mode = false
+  string_lights_bottom_left_to_bottom_right_christmas_mode = false
+  string_lights_loose_left_top_christmas_mode = false
+  string_lights_loose_right_top_christmas_mode = false
+  string_lights_left_center_to_top_center_color_hex = #FFD27A
+  string_lights_right_center_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_left_to_top_center_color_hex = #FFD27A
+  string_lights_bottom_right_to_top_center_color_hex = #FFD27A
+  string_lights_top_left_to_top_right_color_hex = #FFD27A
+  string_lights_bottom_left_to_bottom_right_color_hex = #FFD27A
+  string_lights_loose_left_top_color_hex = #FFD27A
+  string_lights_loose_right_top_color_hex = #FFD27A
+}
+
+decoration_overlay {
+  overlay_type = fireworks
+  instance_identifier = 282fd0cb-a06d-41b6-a5b6-d36bc028a3c2-1783190487685
+  show_decoration_overlay = false
+  fireworks_scale = 1.0
+  fireworks_explosion_size = 1.0
+  fireworks_amount = 1.0
+  fireworks_show_rockets = true
+}
+
+decoration_overlay {
+  overlay_type = snowfall
+  instance_identifier = 88257c9b-c24e-40b1-a78a-4a01a650155f-1783190487685
+  show_decoration_overlay = false
+  snow_intensity = 1.0
+  snow_scale = 1.0
+  snow_speed = 1.0
+  snow_accumulation = true
+  snow_color_hex = #FFFFFF
+}
+
+decoration_overlay {
+  overlay_type = rainfall
+  instance_identifier = 345311a1-dd73-4908-b353-803023a45576-1783190487685
+  show_decoration_overlay = false
+  rain_intensity = 1.0
+  rain_scale = 1.0
+  rain_thunder_brightness = 1.0
+  rain_puddles = true
+  rain_drips = true
+  rain_thunder = false
+  rain_color_hex = #CFE7FF
+}
+
+decoration_overlay {
+  overlay_type = fireflies
+  instance_identifier = 820e3358-3db0-4782-8c6a-7051d92d2e34-1783190487685
+  show_decoration_overlay = false
+  firefly_group_density = 1.0
+  firefly_group_amount = 1.0
+  firefly_group_size = 1.0
+  firefly_scale = 1.0
+  firefly_follow_mouse = true
+  firefly_landing = true
+  firefly_color_hex = #FFE08A
+}
+
+decoration_overlay {
+  overlay_type = leaves
+  instance_identifier = 5c1f3e1a-c2be-4fd0-ac72-fd45a4429cce-1783190487685
+  show_decoration_overlay = false
+  leaves_density = 1.0
+  leaves_wind_intensity = 1.0
+  leaves_wind_blows = true
+  leaves_fall_speed = 1.0
+  leaves_scale = 1.0
+  leaves_color_start_hex = #7BA84F
+  leaves_color_end_hex = #D58A3B
+}
+
+decoration_overlay {
+  overlay_type = confetti
+  instance_identifier = 2812ba59-ab0c-4455-8477-fae9addb2a29-1783190487685
+  show_decoration_overlay = false
+  confetti_scale = 1.0
+  confetti_fall_speed = 1.0
+  confetti_burst_density = 1.0
+  confetti_burst_amount = 1.0
+  confetti_particle_cap = 500
+  confetti_color_mix_mode = true
+  confetti_mouse_click_mode = false
+  confetti_color_hex = #FFFFFF
 }
 
 customization {
@@ -73,6 +390,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -117,6 +436,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -184,6 +505,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -251,6 +574,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -302,6 +627,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -351,6 +678,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 element {
@@ -400,6 +729,8 @@ element {
   advanced_vertical_tilt_mode = false
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_mode = false
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -463,6 +794,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -532,6 +865,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -595,6 +930,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -664,6 +1001,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -727,6 +1066,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -795,6 +1136,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -858,6 +1201,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -926,6 +1271,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -989,6 +1336,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -1052,6 +1401,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -1120,6 +1471,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -1183,6 +1536,8 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = true
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
 vanilla_button {
@@ -1250,5 +1605,7 @@ vanilla_button {
   advanced_horizontal_tilt_mode = false
   is_hidden = false
   automated_button_clicks = 0
+  parallax_intensity_x = 0.5
+  parallax_intensity_y = 0.5
 }
 
