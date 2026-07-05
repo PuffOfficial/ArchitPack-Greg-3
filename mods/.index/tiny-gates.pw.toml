@@ -1,0 +1,21 @@
+filename = 'tinygates-1.20-4.0.0.jar'
+name = 'Tiny Gates'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'tinygates-1.20-4.0.0.jar'
+
+[download]
+hash = '2befa58e4a43668534dbe8ea853b770d717dc536'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4594228
+project-id = 522875
+
+[[x-prismlauncher-dependencies]]
+addonId = '453746'
+type = 'OPTIONAL'

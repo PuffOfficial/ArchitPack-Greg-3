@@ -57,6 +57,9 @@
     "locomotive": true,
     "switch_track": true
   },
+  "entangled": {
+    "entangled_block_component": true
+  },
   "gtceu": {
     "auto_output_info": true,
     "primitive_pump": true,

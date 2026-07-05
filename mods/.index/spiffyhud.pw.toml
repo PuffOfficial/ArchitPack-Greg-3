@@ -1,0 +1,25 @@
+filename = 'spiffyhud_forge_3.1.2_MC_1.20.1.jar'
+name = 'SpiffyHUD'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge] v3.1.2 MC 1.20.1'
+
+[download]
+hash = 'ecfdcb9dfb98d5ae4f7414874318695a9b9388a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8032828
+project-id = 483885
+
+[[x-prismlauncher-dependencies]]
+addonId = '367706'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '410295'
+type = 'REQUIRED'
