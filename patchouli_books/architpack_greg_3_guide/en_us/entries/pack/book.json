@@ -1,0 +1,13 @@
+{
+    "name": "Book Information",
+    "icon": "patchouli:guide_book{'patchouli:book':'patchouli:architpack_greg_3_guide'}",
+    "category": "patchouli:pack",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "patchouli:guide_book{'patchouli:book':'patchouli:architpack_greg_3_guide'}",
+            "title": "Book Information",
+            "text": "This book is designed to help you navigate and understand the features of the ArchitPack Greg 3 modpack. $(br2)Inside, you'll find various chapters covering different aspects of the pack."
+        }
+    ]
+}

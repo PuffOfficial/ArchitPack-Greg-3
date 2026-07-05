@@ -1,0 +1,32 @@
+{
+    "name": "Credits",
+    "icon": "forestry:letter_empty_fresh",
+    "category": "patchouli:pack",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This chapter contains credits for the ArchitPack Greg 3. $(br2)We would like to thank all people that are in there whose work makes this pack possible, as well as the community members who have contributed feedback and suggestions."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Original Creator",
+            "text": "APG series is originally owned by ArchitektRadim. $(br)This pack was made with his permission and under his curation.",
+            "images": [
+                "architpack:textures/patchouli/apgreg3_logo.png"
+            ],
+            "border": false
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "gtceu:exquisite_apatite_gem",
+            "title": "Developers",
+            "text": "§lPuff (@puff_official)§r: $(br)Developer, Pack Maintainer. $(br2)§lRadim (@architektradim)§r: $(br)Original creator of the series."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "gtceu:flawless_apatite_gem",
+            "title": "Contributors",
+            "text": ""
+        }
+    ]
+}

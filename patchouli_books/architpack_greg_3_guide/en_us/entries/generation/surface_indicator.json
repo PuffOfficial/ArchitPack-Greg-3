@@ -1,0 +1,39 @@
+{
+    "name": "Surface Indicators",
+    "icon": "gtceu:emerald_indicator",
+    "category": "patchouli:generation",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Sometimes, ore veins can have surface indicators, which are blocks that appear on the surface above an ore vein. $(br2)These indicators can help you locate ore veins more easily."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Copper",
+            "images": [
+                "architpack:textures/patchouli/surface_indicator_1.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Goethite",
+            "images": [
+                "architpack:textures/patchouli/surface_indicator_2.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Basaltic Mineral Sand",
+            "images": [
+                "architpack:textures/patchouli/surface_indicator_3.png"
+            ],
+            "border": true
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Indicators can be different for different ores. $(br2)Some ores may not have any surface indicators at all."
+        }
+    ]
+}
