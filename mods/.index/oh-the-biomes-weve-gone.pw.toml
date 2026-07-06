@@ -1,0 +1,37 @@
+filename = 'Oh-The-Biomes-Weve-Gone-Forge-1.8.0.jar'
+name = "Oh The Biomes We've Gone"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Oh-The-Biomes-Weve-Gone-Forge-1.8.0'
+
+[download]
+hash = '5924e8b6cec952dae66055ebaea1bde6f84e2239'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8255932
+project-id = 1070751
+
+[[x-prismlauncher-dependencies]]
+addonId = '962544'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '455982'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '563928'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '693313'
+type = 'REQUIRED'

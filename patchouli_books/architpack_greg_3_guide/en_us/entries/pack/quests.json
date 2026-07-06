@@ -5,7 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "As you may already noticed, this pack doesn't have any questing system. $(br2)I wanted to keep progression as flexible as possible, players are forced to think by themselves. $(br2)Oh also, have I mentioned that this pack is kitchensink and has no set final goal?"
+            "text": "As you may already noticed, this pack doesn't have any questing system. $(br2)I wanted to keep progression as flexible as possible, players are forced to think by themselves."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "But in case you want to have final goal, craft"
         }
     ]
 }

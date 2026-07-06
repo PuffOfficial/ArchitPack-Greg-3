@@ -60,6 +60,8 @@ ServerEvents.recipes(archit => {
     archit.remove({ output: `railcraft:turbine_blade` });
     archit.remove({ output: `railcraft:turbine_disk` });
 
+    archit.remove({ id: `industrialrenewal:ingot_steel_from_smelting_sponge_iron`})
+
     //Guide Book Recipe
     archit.shaped(Item.of(`patchouli:guide_book`, `{'patchouli:book':'patchouli:architpack_greg_3_guide'}`), [
         `A  `,
@@ -274,10 +276,6 @@ ServerEvents.recipes(archit => {
         E: AnyScrewdriver
     }).damageIngredient([AnyHammer, AnyScrewdriver]);
 });
-
-
-
-
 
 // MARK: Tags
 ServerEvents.tags(`item`, archit => {
